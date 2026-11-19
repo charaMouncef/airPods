@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Regular";
+  src: url("/fonts/regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Medium";
+  src: url("/fonts/medium.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SemiBold";
+  src: url("/fonts/semibold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url("/fonts/bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@theme {
+  --font-regular: "Regular";
+  --font-medium: "Medium";
+  --font-semibold: "SemiBold";
+  --font-bold: "Bold";
+}
+
+body {
+  width: 100%;
+  background-color: #f5f5f7;
+  overflow-x: hidden;
+}
+
+.show-image {
+  opacity: 0;
+  animation: imageFade 25s infinite;
+}
+
+.image-1 { animation-delay: 0s; }
+.image-2 { animation-delay: 5s; }
+.image-3 { animation-delay: 10s; }
+.image-4 { animation-delay: 15s; }
+.image-5 { animation-delay: 20s; }
+
+@keyframes imageFade {
+  0%, 20% {
+    opacity: 1;
+  }
+  20.01%, 100% {
+    opacity: 0;
+  }
+}
