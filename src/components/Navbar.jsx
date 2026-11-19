@@ -1,7 +1,7 @@
 import { navLinks } from "../constants";
 export default function Navbar() {
   return (
-    <header className="w-screen min-h-[7vh] fixed top-0 left-0 z-50 flex justify-center items-center border-b-2 border-dark-100 bg-[#f5f5f7] backdrop-blur-md">
+    <header className="w-screen min-h-[7vh] fixed top-0 left-0 z-50 flex justify-center items-center border-b-2 border-gray-100 bg-[#f5f5f7] backdrop-blur-md">
       <nav className="max-w-7xl container flex justify-between items-center mx-auto px-5">
         <img
           className="cursor-pointer hover:-translate-y-0.5 transition-all duration-300 ease-in-out"

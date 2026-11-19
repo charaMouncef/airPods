@@ -15,7 +15,7 @@ export default function Hero() {
       <h1 className="text-black text-2xl md:text-6xl font-bold">
         AirPods Pro 3
       </h1>
-      <h3 className="text-md md:text-xl text-[#86868b] uppercase font-semibold">
+      <h3 className="text-sm md:text-xl text-[#86868b] uppercase font-semibold">
         The world’s best in-ear Active Noise Cancellation.
       </h3>
       <div className="flex justify-between items-center">

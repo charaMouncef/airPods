@@ -1,7 +1,7 @@
 import { models } from "../constants";
 export default function Models() {
   return (
-    <section>
+    <section className="md:p-6 pb-2">
       <h2 className="text-black text-center text-2xl md:text-6xl font-bold">
         AirPods models
       </h2>
