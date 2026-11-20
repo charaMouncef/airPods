@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     const lenis = new Lenis();
 
-    lenis.on("scroll", ScrollTrigger.update);
+    lenis.on("scroll", ScrollTrigger.update());
 
     const tickerCallback = (time) => {
       lenis.raf(time * 1000);
